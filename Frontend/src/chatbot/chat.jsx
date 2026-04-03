@@ -21,7 +21,7 @@ const Chat = () => {
   const bottomRef = useRef(null);
 
   // ✅ Send Message (FIXED API CALL)
-  const API_KEY = "AIzaSyAY8rK4vyqrLqOzLHLWLZBk4v4ftSQOuF4"; // 🔥 Replace this
+  const API_KEY = import.meta.env.VITE_API_KEY_TARUN; // 🔥 Replace this
 
   const moods = [
     { emoji: "😊", label: "Great", color: "#10b981", value: "great" },
