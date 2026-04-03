@@ -18,7 +18,7 @@ const Sign = () => {
   const [signupPassword, setSignupPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
 
-  const API_URL = 'http://localhost:3000/api';
+  const API_URL = 'https://ai-chatbot-powered-by-google-gemini-kappa.vercel.app/api';
 
   // Handle login submission
   const handleLogin = async (e) => {
