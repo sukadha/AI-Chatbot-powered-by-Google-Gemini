@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5173', // Your React app URL
+    origin: 'https://ai-chatbot-powered-by-google-gemini.vercel.app', // Your React app URL
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
